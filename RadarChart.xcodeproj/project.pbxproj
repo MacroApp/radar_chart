@@ -11,6 +11,11 @@
 		140B7B4E2A93885800550FAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B7B4D2A93885800550FAB /* ContentView.swift */; };
 		140B7B502A93885900550FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140B7B4F2A93885900550FAB /* Assets.xcassets */; };
 		140B7B532A93885900550FAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140B7B522A93885900550FAB /* Preview Assets.xcassets */; };
+		140B7B5A2A9388AB00550FAB /* RadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B7B592A9388AB00550FAB /* RadarChartView.swift */; };
+		140B7B5C2A93894700550FAB /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B7B5B2A93894700550FAB /* Ray.swift */; };
+		140B7B5E2A938CB800550FAB /* RayCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B7B5D2A938CB800550FAB /* RayCase.swift */; };
+		140B7B602A938D8800550FAB /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B7B5F2A938D8800550FAB /* DataPoint.swift */; };
+		140B7B622A93AB1300550FAB /* RayEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B7B612A93AB1300550FAB /* RayEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		140B7B4D2A93885800550FAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		140B7B4F2A93885900550FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		140B7B522A93885900550FAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		140B7B592A9388AB00550FAB /* RadarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChartView.swift; sourceTree = "<group>"; };
+		140B7B5B2A93894700550FAB /* Ray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ray.swift; sourceTree = "<group>"; };
+		140B7B5D2A938CB800550FAB /* RayCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayCase.swift; sourceTree = "<group>"; };
+		140B7B5F2A938D8800550FAB /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+		140B7B612A93AB1300550FAB /* RayEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				140B7B4B2A93885800550FAB /* RadarChartApp.swift */,
 				140B7B4D2A93885800550FAB /* ContentView.swift */,
+				140B7B592A9388AB00550FAB /* RadarChartView.swift */,
+				140B7B5B2A93894700550FAB /* Ray.swift */,
+				140B7B612A93AB1300550FAB /* RayEntry.swift */,
+				140B7B5F2A938D8800550FAB /* DataPoint.swift */,
+				140B7B5D2A938CB800550FAB /* RayCase.swift */,
 				140B7B4F2A93885900550FAB /* Assets.xcassets */,
 				140B7B512A93885900550FAB /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140B7B602A938D8800550FAB /* DataPoint.swift in Sources */,
+				140B7B622A93AB1300550FAB /* RayEntry.swift in Sources */,
+				140B7B5C2A93894700550FAB /* Ray.swift in Sources */,
 				140B7B4E2A93885800550FAB /* ContentView.swift in Sources */,
+				140B7B5E2A938CB800550FAB /* RayCase.swift in Sources */,
+				140B7B5A2A9388AB00550FAB /* RadarChartView.swift in Sources */,
 				140B7B4C2A93885800550FAB /* RadarChartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
